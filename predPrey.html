@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quizz Bizz</title>
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHomestyle.css" type="text/css" rel="stylesheet" />
+    
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzPagestyle.css" type="text/css" rel="stylesheet"/>
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/questionsstyle.css" type="text/css" rel="stylesheet"/>
+    
+
+    <script src="C:Users/Ruby/Documents/jquery-3.6.0.js"></script>
+    <script src="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHomePage.js"></script>
+    <script src="C:Users/Ruby/Documents/myproject/quizzWebsite/predPrey.js"></script>
+        
+</head>
+<body>
+    <div id="page">
+        <header id="fullHeader">
+                
+                    <h1 id="htitle"> Quizz<br> Bizz</h1>
+                    <img src="C:Users/Ruby/Pictures/questionmark2.jpg" id="icon" alt="">
+                
+        </header>
+        
+        <ul class="home">
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHome.html">Home</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzLove.html">Love</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzAnimal.html">Animal</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzFood.html">Food</a></li>
+        </ul>
+        
+        <div id="middlePage">
+            <div class="questionGroup">
+                <div class="startQuestion">You are stuck in the jungle, what concerns you most?</div>
+                <div class="answerGroup">
+                    <button class="answer" value="5">How to obtain food</button>
+                    <button class="answer" value="4">Where to get water from</button>
+                    <button class="answer" value="1">Hungry Animals</button>
+                    <button class="answer" value="3">Never being found</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">Where are you planning on sleeping?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="1">On the ground</button>
+                    <button class="answer" value="3">On the trees</button>
+                    <button class="answer" value="2">In a cave</button>
+                    <button class="answer" value="4">Under a human-made camouflage set-up</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">How do you plan on getting food?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="3">Looking under rocks for insects</button>
+                    <button class="answer" value="3">Going fishing</button>
+                    <button class="answer" value="1">Eating berries from a bush</button>
+                    <button class="answer" value="5">setting up a trap for small animals</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">You hear a tiger in the distance. What are you going to do?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="4">Climb a tree and wait for it to leave</button>
+                    <button class="answer" value="5">Carve a spear with a knife and wait for it</button>
+                    <button class="answer" value="3">Go farther away from the roar. Put as much distance as possible between you and the tiger</button>
+                    <button class="answer" value="1">Do nothing. It might not even be headed towards you</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">Oh no! The tiger is right in front of you. What do you do now?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="1">RUN!</button>
+                    <button class="answer" value="3">Back away slowly towards a tree and climb it</button>
+                    <button class="answer" value="5">Make a lot of noise to scare away the tiger</button>
+                    <button class="answer" value="2">Attack the tiger with your spear</button>
+                </div>
+            </div>
+            <div class="finalResult">
+                <h1 id="finalTitle">Are you a predator or prey?</h1>
+                <h2 id="result"></h2>
+                <h3 id="details"></h3>
+            </div>
+        </div>
+        <footer>
+            &copy; 2021 Quizz Bizz
+        </footer>
+        </div>
+    </body>
+</html>

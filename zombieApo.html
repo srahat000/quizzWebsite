@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quizz Bizz</title>
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHomestyle.css" type="text/css" rel="stylesheet" />
+    
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzPagestyle.css" type="text/css" rel="stylesheet"/>
+    <link href="C:Users/Ruby/Documents/myproject/quizzWebsite/questionsstyle.css" type="text/css" rel="stylesheet"/>
+    
+    
+
+    <script src="C:Users/Ruby/Documents/jquery-3.6.0.js"></script>
+    <script src="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHomePage.js"></script>
+    <script src="C:Users/Ruby/Documents/myproject/quizzWebsite/zombieApo.js"></script>
+        
+</head>
+<body>
+    <div id="page">
+        <header id="fullHeader">
+                
+                    <h1 id="htitle"> Quizz<br> Bizz</h1>
+                    <img src="C:Users/Ruby/Pictures/questionmark2.jpg" id="icon" alt="">
+                
+        </header>
+        
+        <ul class="home">
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzHome.html">Home</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzLove.html">Love</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzAnimal.html">Animal</a></li>
+            <li><a href="C:Users/Ruby/Documents/myproject/quizzWebsite/quizzFood.html">Food</a></li>
+        </ul>
+        
+        <div id="middlePage">
+            <div class="questionGroup">
+                <div class="startQuestion">The news channel tells you about the horrible zombie apocalypse
+                    that has started. You don't don't if anyone from your neighborhood is infected or not but 
+                    you're hungry. What are you eating for breakfast?
+                </div>
+                <div class="answerGroup">
+                    <button class="answer" value="3">Nothing, I'm too stressed to eat</button>
+                    <button class="answer" value="1">Eggs and toast with coffee</button>
+                    <button class="answer" value="1">Pancakes and a blended smoothie</button>
+                    <button class="answer" value="4">Cereal and a glass of milk</button>
+                    <button class="answer" value="5">Yogurt with fruits, oats, and nuts and a 
+                        glass of milk
+                    </button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">It's lunch time! What are you having for lunch?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="5">A Peanut butter and jelly sandwich</button>
+                    <button class="answer" value="3">A grilled cheese sandwich</button>
+                    <button class="answer" value="2">Slow-cooked lentil soup with baked bread</button>
+                    <button class="answer" value="1">Chicken skewers with salad</button>
+                    <button class="answer" value="4">Untoasted bread, then back to my hiding spot</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">It's getting dark and we're close to dinner time. What will you have?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="1">Going outside to eat</button>
+                    <button class="answer" value="2">Roast chicken with rice and a couple of lamp chops</button>
+                    <button class="answer" value="3">Applesauce from a jar</button>
+                    <button class="answer" value="5">Chickpea and tofu salad</button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">Oh no! All your food finished, what are you doing about breakfast tomorrow?</div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="1">I'll go shopping in the morning or go to my friend's house and 
+                        we'll have breakfast together
+                    </button>
+                    <button class="answer" value="3">I have some emergency nuts to help me get through the morning</button>
+                    <button class="answer" value="4">I've started growing fruits and veggies in my backyard and I'll quickly pluck fruits
+                        and make myself a fruit bowl
+                    </button>
+                    <button class="answer" value="5">After scanning my neighborhood, I'm going out with a set of knifes for safety
+                         to the nearest grocery store
+                    </button>
+                </div>
+            </div>
+            <div class="questionGroupHide">
+                <div class="startQuestionHide">You've spotted a zombie on your block, but you don't know how 
+                    strong their sense of smell is, what are your plans for dinner now?
+                </div>
+                <div class="answerGroupHide">
+                    <button class="answer" value="2">Chicken and shrimp fajitas</button>
+                    <button class="answer" value="1">Lasagna and roast beef stew</button>
+                    <button class="answer" value="5">Canned meat</button>
+                    <button class="answer" value="5">Canned beans</button>
+                    <button class="answer" value="4">Candy and dried fruits</button>
+                </div>
+            </div>
+            <div class="finalResult">
+                <h1 id="finalTitle">How will you die in a zombie apocalypse?</h1>
+                <h2 id="result"></h2>
+                <h3 id="details"></h3>
+            </div>
+        </div>
+        <footer>
+            &copy; 2021 Quizz Bizz
+        </footer>
+        </div>
+    </body>
+</html>

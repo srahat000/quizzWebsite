@@ -1,0 +1,15 @@
+.middlePage{
+height:90%;
+}
+.questionGroup, .answerGroup{
+    height:90%;
+}
+
+.house{
+    width:250px;
+    height:200px;
+    margin:0;
+}
+.answer{
+    padding:1%;
+}
